@@ -6,7 +6,6 @@ let msg=document.querySelector("#msg");
 
 let turn0 = true;
 
-
 const winpatterns=[
     [0, 1, 2],
     [3, 4, 5],
@@ -17,8 +16,6 @@ const winpatterns=[
     [0, 4, 8],
     [2, 4, 6]
 ];
-
-
 
 
 boxes.forEach((boxes) => {
